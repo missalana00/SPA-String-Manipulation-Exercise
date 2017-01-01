@@ -1,0 +1,91 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <title>String Manipulation Exercise</title>
+
+
+    <link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap.css">
+
+    <!-- My CSS -->
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+
+  <body>
+    <div class="container">
+
+
+      <div class="row">
+        <header class="col-md-12">
+          <h2>String Manipulation Exercise</h2>
+        </header>
+      </div> <!-- /.row -->
+
+
+
+      <div class="row">
+        <div class="col-md-4">
+            <fieldset>
+              <legend>String To Manipulate:</legend>
+              <input type="text" id="textInput" placeholder="Type a word or phrase here. Use text only; no numbers." size="60">
+            <br></fieldset>
+        </div><!-- /.col-md-4 -->
+      </div> <!-- /.row -->
+
+
+      <div class="row">
+        <div class="col-md-4">
+            <fieldset>
+              <legend>Manipulate My Text:</legend>
+              <button type="button" id="Go">Go!</button>
+            </fieldset>
+        </div><!-- /.col-md-4 -->
+      </div> <!-- /.row -->
+
+
+      <div class="col-md-4">
+          <h3>Here Ya Go, Darlin'!</h3>
+          <table class="table table-bordered">
+
+          <thead>
+            <tr>
+              <th>Manipulation Type</th>
+              <th>Post-Manipulation</th>
+            </tr>
+          </thead>
+
+
+          <tbody>
+            <tr>
+              <td>Reversed</td>
+              <td id="reversedTextHere"></td>
+            </tr>
+
+            <tr>
+              <td>Alphabatized</td>
+              <td id="alphaTextHere"></td>
+            </tr>
+          </tbody>
+
+          </table>
+      </div><!-- /.col-md-4 -->
+    </div><!-- /.container -->
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="/bower_components/jquery/dist/jquery.js"></script>
+    <!-- My JavaScript -->
+    <script src="string.js"></script>
+  </body>
+</html>
